@@ -1,0 +1,62 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:padding="@dimen/default_padding"
+android:background="@color/deepBlue">
+
+<LinearLayout
+    android:id="@+id/contactContainer"
+    android:layout_width="@dimen/container_width"
+    android:layout_height="@dimen/container_height"
+    android:layout_marginTop="@dimen/margin_top_large"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/ivContactImage"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginBottom="@dimen/default_padding"
+        android:contentDescription="Van Gogh Portrait"
+        android:scaleType="centerCrop"
+        android:src="@drawable/van_gogh" />
+
+    <TextView
+        android:id="@+id/tvContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding"
+        android:text="@string/van_ghoh"
+        android:textColor="@color/moonYellow"
+        android:textSize="@dimen/text_size_large" />
+
+    <EditText
+        android:id="@+id/etContactNotes"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginBottom="@dimen/default_padding"
+        android:backgroundTint="@color/skyBlue"
+        android:gravity="top"
+        android:hint="@string/enter_contact_notes_here"
+        android:padding="@dimen/default_padding"
+        android:textColor="@color/cloudWhite"
+        android:textColorHint="@color/cloudWhite" />
+
+    <Button
+        android:id="@+id/btnSaveContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/skyBlue"
+        android:text="@string/save_contact"
+        android:textColor="@color/cloudWhite" />
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

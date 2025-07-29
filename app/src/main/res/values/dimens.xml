@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="container_width">375dp</dimen>
+    <dimen name="container_height">396dp</dimen>
+    <dimen name="margin_top_large">140dp</dimen>
+    <dimen name="edittext_width">266dp</dimen>
+    <dimen name="edittext_height">87dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+</resources>

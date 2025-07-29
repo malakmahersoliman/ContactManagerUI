@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Contact Manager UI</string>
+    <string name="van_ghoh">van ghoh</string>
+    <string name="enter_contact_notes_here">Enter contact notes here</string>
+    <string name="save_contact">Save Contact</string>
+</resources>
