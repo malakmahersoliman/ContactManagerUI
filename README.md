@@ -4,7 +4,7 @@ A simple Android UI screen designed to simulate a contact manager interface. Thi
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Create a static contact management screen using:
 - `ConstraintLayout` and `LinearLayout`
@@ -13,19 +13,19 @@ Create a static contact management screen using:
 
 ---
 
-## 🧱 Layout Structure
+##  Layout Structure
 
 - Root: `ConstraintLayout`
 - Nested: `LinearLayout` for vertical stacking
 - Elements included:
-  - 🖼️ `ImageView` (`ivContactImage`) – contact profile image
-  - 📛 `TextView` (`tvContactName`) – displays contact name
-  - 📝 `EditText` (`etContactNotes`) – note field
-  - 💾 `Button` (`btnSaveContact`) – save action
+  - `ImageView` (`ivContactImage`) – contact profile image
+  -  `TextView` (`tvContactName`) – displays contact name
+  -  `EditText` (`etContactNotes`) – note field
+  - `Button` (`btnSaveContact`) – save action
 
 ---
 
-## 🎨 Starry Night Theme
+##  Starry Night Theme
 
 This screen uses a Van Gogh–inspired palette defined in `colors.xml`:
 
@@ -38,7 +38,7 @@ This screen uses a Van Gogh–inspired palette defined in `colors.xml`:
 
 ---
 
-## 📦 Resource Management
+##  Resource Management
 
 | Resource Type | File | Example |
 |---------------|------|---------|
@@ -49,7 +49,7 @@ This screen uses a Van Gogh–inspired palette defined in `colors.xml`:
 
 ---
 
-## ✅ Attribute Practice
+##  Attribute Practice
 
 Applied UI attributes:
 - `textSize` for readability
@@ -60,7 +60,7 @@ Applied UI attributes:
 ---
 
 
-## 🚀 Learning Outcomes
+##  Learning Outcomes
 
 - XML layout nesting and structure
 - ID naming conventions (`tvContactName`, `btnSaveContact`, etc.)
